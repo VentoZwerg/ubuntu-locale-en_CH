@@ -11,7 +11,7 @@ Sources :
 _tested on Ubuntu 25.10_
 
 
-	wget https://raw.githubusercontent.com/cbaconnier/VentoZwerg/master/en_CH
+	wget https://raw.githubusercontent.com/VentoZwerg/ubuntu-locale-en_CH/master/en_CH
 	sudo localedef -i en_CH -f UTF-8 en_CH.UTF-8 -c -v
 	sudo mv en_CH /usr/share/i18n/locales/
 	echo 'en_CH UTF-8' | sudo tee --append /var/lib/locales/supported.d/en
