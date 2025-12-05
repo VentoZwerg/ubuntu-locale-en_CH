@@ -1,16 +1,17 @@
 # Locale en_CH
 
 Sources : 
+ - https://github.com/cbaconnier/ubuntu-locale-en_CH
  - https://askubuntu.com/a/162714/868786
  - https://lh.2xlibre.net/locale/en_US/
  - https://lh.2xlibre.net/locale/fr_CH/
 
 # Installation
 
-_tested on Ubuntu 18.10_
+_tested on Ubuntu 25.10_
 
 
-	wget https://raw.githubusercontent.com/cbaconnier/ubuntu-locale-en_CH/master/en_CH
+	wget https://raw.githubusercontent.com/cbaconnier/VentoZwerg/master/en_CH
 	sudo localedef -i en_CH -f UTF-8 en_CH.UTF-8 -c -v
 	sudo mv en_CH /usr/share/i18n/locales/
 	echo 'en_CH UTF-8' | sudo tee --append /var/lib/locales/supported.d/en
