@@ -1,15 +1,6 @@
 # Locale en_CH
 
-Sources : 
- - https://github.com/cbaconnier/ubuntu-locale-en_CH
- - https://askubuntu.com/a/162714/868786
- - https://lh.2xlibre.net/locale/en_US/
- - https://lh.2xlibre.net/locale/fr_CH/
-
-# Installation
-
-_tested on Ubuntu 25.10 & 26.04.1_
-
+## Installation :
 
 	wget https://raw.githubusercontent.com/VentoZwerg/ubuntu-locale-en_CH/master/en_CH
 	sudo localedef -i en_CH -f UTF-8 en_CH.UTF-8 -c -v
@@ -21,3 +12,13 @@ _tested on Ubuntu 25.10 & 26.04.1_
  - Change the regional settings with the new locale in `Language Support` > `Regional Formats` and search for `Switzerland (English)`
 
 Next time you log in, the locale should be in use.
+
+_tested on Ubuntu 25.10 & 26.04.1_
+
+
+## Sources : 
+ - https://github.com/cbaconnier/ubuntu-locale-en_CH
+ - https://askubuntu.com/a/162714/868786
+ - https://lh.2xlibre.net/locale/en_US/
+ - https://lh.2xlibre.net/locale/fr_CH/
+
