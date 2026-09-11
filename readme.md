@@ -8,7 +8,7 @@ Sources :
 
 # Installation
 
-_tested on Ubuntu 25.10_
+_tested on Ubuntu 25.10 & 26.04.1_
 
 
 	wget https://raw.githubusercontent.com/VentoZwerg/ubuntu-locale-en_CH/master/en_CH
