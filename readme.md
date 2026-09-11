@@ -1,4 +1,4 @@
-# Locale en_CH
+# Locale en_CH (English / Switzerland)
 
 ## Installation :
 
@@ -13,7 +13,7 @@
 
 Next time you log in, the locale should be in use.
 
-_tested on Ubuntu 25.10 & 26.04.1_
+_Tested on Ubuntu 25.10 & 26.04.1_
 
 
 ## Sources : 
